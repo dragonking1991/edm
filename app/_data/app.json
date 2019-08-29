@@ -1,0 +1,11 @@
+{
+	"assetPath": "assets",
+	"title": "download-brochure",
+	"menu":[
+		{
+			"name": "Home",
+			"link": "index.html",
+			"sub": null
+		}
+	]
+}

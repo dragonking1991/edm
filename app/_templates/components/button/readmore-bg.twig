@@ -1,0 +1,35 @@
+{% set spaceWithDesktop = 540 -  width %}
+{% set spaceWithMobile = 300 -  width %}
+<style>
+@media only screen and (max-width:600px) {
+    .col-space{ 
+            width: {{spaceWithMobile}}px!important;
+    }
+}
+</style>
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%" width="100%">
+    <tbody>
+        <tr>
+            {% if float =="right" %}
+                <td class="col-space" style="width: {{spaceWithDesktop}}px;height:35px"></td>
+            {% endif %}
+            <td align="center" valign="center" class="middle" style="width: {{width}}px;background: #00684b;vertical-align: middle;color: #fff;text-align:center" >
+               <table border="0" cellpadding="0" cellspacing="0" style="width: 100%" width="100%" >
+                    <tbody>
+                        <tr> 
+                            <td align="center" valign="center" class="middle" style="width: {{width}}px; background: #00684b;vertical-align: middle;color: #fff;padding: 10px 0px; text-align:center" >
+                                <a href="#" style="font-family: Arial;color:#fff;display: block;vertical-align: middle;text-decoration:none;font-size:{{fontsize}}px;font-weight:bold;text-align:center">
+                                    {{text}} <img src="./assets/images/arrow-right.png" style="vertical-align: middle;width:7px;height: 11px;border:none;display:inline-block;outline:none;"/>
+                                </a>
+                            </td> 
+                        </tr>
+                    </tbody>
+                </table> 
+            </td>
+            {% if float =="left" %}
+                <td class="col-space" style="width: {{spaceWithDesktop}}px;height:35px"></td>
+            {% endif %}
+        </tr>
+    </tbody>
+</table>
+

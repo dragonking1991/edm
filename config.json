@@ -1,0 +1,6 @@
+{
+	"src": "app",
+	"tmp": ".tmp",
+	"dist": "dist", 
+	"img": "assets/images"
+}
