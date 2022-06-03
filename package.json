@@ -68,7 +68,7 @@
     "babel-polyfill": "^6.26.0",
     "jquery": "^3.3.1",
     "jquery-ui": "^1.12.1",
-    "jquery-validation": "^1.19.0",
+    "jquery-validation": "^1.19.4",
     "slick-carousel": "^1.8.1"
   },
   "config": {
